@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main navigation shared across pages -->
+    <header>
+        <nav class="navbar container">
+            <a href="index.html" class="logo">StudentMS</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="add_student.php">Add Student</a></li>
+                <li><a href="view_students.php">View Students</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section introducing the app -->
+        <section class="hero container">
+            <h1>Student Management Website</h1>
+            <p>
+                Easily register students and view records using a clean, responsive interface.
+                Built with HTML, CSS, JavaScript, PHP, and MySQL.
+            </p>
+            <div class="hero-actions">
+                <a href="add_student.php" class="btn">Add New Student</a>
+                <a href="view_students.php" class="btn btn-secondary">View Students</a>
+            </div>
+        </section>
+
+        <!-- About section requested in requirements -->
+        <section id="about" class="about container card">
+            <h2>About This Project</h2>
+            <p>
+                This project demonstrates a full student management workflow:
+                form-based data entry, server-side processing, database persistence,
+                and record listing with validation and feedback.
+            </p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> StudentMS. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
